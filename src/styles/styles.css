@@ -1,0 +1,62 @@
+/* Import */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import 'var.css';
+
+/* ================ General ================ */
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+p {
+    margin-bottom: 5px !important;
+}
+hr {
+    color: var(--brightColor);
+}
+em {
+    color: var(--darkColor);
+}
+
+/* ================ Header ================ */
+header {
+    background-color: var(--recipeColor);
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav {
+    display: flex;
+    flex-direction: row;
+}
+nav > li,
+nav > li a,
+nav > li a:hover {
+    color: var(--brightColor);
+    list-style: none;
+    padding-left: 20px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+/* ================ Footer ================ */
+footer {
+    background-color: var(--lightColor);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: var(--brightColor);
+}
+.footerLink,
+.footerLink a,
+.footerLink a:hover {
+    color: var(--brightColor) !important;
+    text-decoration: none;
+}
+
+/* ================ Info Page ================ */
+.spaceInfo {
+	margin-top: -5px;
+	height: 0px !important;
+}

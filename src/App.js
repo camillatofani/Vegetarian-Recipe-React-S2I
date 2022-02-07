@@ -1,24 +1,37 @@
-import logo from './logo.svg';
-import './App.css';
+/* ==== Containers & Component ==== */
+import {
+  HomePage,
+  RecipePage,
+  InfoPage,
+  HomePageAPI,
+} from './containers';
+import {
+  Header,
+  Footer,
+  SearchForm,
+} from './components';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+
+/* ==== Style ==== */
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './styles/styles.css';
 
 function App() {
+  console.log(process.env.REACT_APP_API_KEY);
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Header />
+        <BrowserRouter>
+          <Routes>
+              <Route path='/' element={<HomePage />} exact />
+              <Route path='/recipes/:id' element={<RecipePage />} exact />
+              <Route path='/info' element={<InfoPage />} />
+              <Route path='/searchform' element={<SearchForm />} />
+              <Route path='/clientapi' element={<HomePageAPI />} />
+          </Routes>
+        </BrowserRouter>
+      <Footer />
+    </>
   );
 }
 

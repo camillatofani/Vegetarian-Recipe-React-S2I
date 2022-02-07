@@ -1,0 +1,14 @@
+@import '../../styles/var.css';
+
+.imgRecipe {
+    width: 100%;
+    border-radius: 4px;
+    box-shadow: 0px 0px 4px #e0e0e0;
+}
+.glutenRecipe {
+    color: #FFA442;
+    font-weight: 700;
+}
+.buttonRecipeSource {
+    padding: 20px 0px;
+}
