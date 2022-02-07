@@ -1,70 +1,47 @@
-# Getting Started with Create React App
+# Vegetarian Recipe React S2I
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was started with [Start2Impact](https://www.start2impact.it/).
 
-## Available Scripts
+## Legenda dei contenuti
+1. [Project description](#description)
+2. [Requirements](#req)
+3. [View the project](#project)
+4. [Contact](#contact)
 
-In the project directory, you can run:
 
-### `npm start`
+### Project description
+<a name="description"></a>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The website you will create is designed for vegetarians. In fact, within the site, the user will have the ability to search exclusively for vegetarian recipes through the spoonacular API. Note that you will need to specify parameters to receive only certain categories, so read the documentation carefully.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+API: https://spoonacular.com/food-api/docs
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Requirements
+<a name="req"></a>
+1) Search bar that allows you to search for all vegetarian recipes.
+2) Each recipe searched must show at least the title and cover image.
+3) Clicking on a recipe will take you to a dedicated page, where further information will be shown.
+4) Simple and easy to use UI and UX.
+5) Organized and understandable app structure.
+6) Responsive design.
 
-### `npm run build`
+<details>
+<summary>Bonus</summary>
+Use these technologies:<br>
+1) React Router<br>
+2) Axios<br>
+3) React Hooks<br>
+4) Redux or Context API
+</details>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### View the project
+<a name="project"></a>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+If you want to look the final project click [here](https://vegetarian-recipes-s2i.web.app/).
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+### Contact
+<a name="contact"></a>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[LinkedIn](https://www.linkedin.com/in/camilla-tofani-3b284a103/)
