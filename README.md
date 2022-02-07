@@ -2,7 +2,7 @@
 
 This project was started with [Start2Impact](https://www.start2impact.it/).
 
-## Legenda dei contenuti
+## Content legend
 1. [Project description](#description)
 2. [Requirements](#req)
 3. [View the project](#project)
